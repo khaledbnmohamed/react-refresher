@@ -19,8 +19,16 @@
   },
   "homepage": "https://github.com/getyourguide/web-pairing-kit#readme",
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.11.16",
+    "bootstrap": "^5.2.3",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "react-bootstrap": "^2.7.2",
+    "react-hook-form": "^7.43.9",
+    "react-router-dom": "^6.10.0"
   }
 }

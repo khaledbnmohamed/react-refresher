@@ -1,12 +1,19 @@
 import React from 'react';
-import ToursList from './ToursList';
+import ToursList from './components/ToursList';
+import { BrowserRouter as Router } from "react-router-dom";
+import Navbar from './components/Navbar/Navbar';
+
+import '@coreui/coreui/dist/css/coreui.min.css'
 
 
 function App() {
   return (
-    <div>
-      <ToursList />
-    </div>
+    <Router>
+        <div>
+          <Navbar />
+          <ToursList />
+        </div>
+    </ Router>
   );
 }
 
